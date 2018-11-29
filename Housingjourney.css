@@ -1,0 +1,88 @@
+body{
+  font-family: Rockwell;
+  cursor: pointer;
+}
+
+
+.intro{
+  background-color: #C74B55;
+  height:140px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  font-size: 45px;
+}
+
+.comment {
+
+  position: absolute;
+  top: 140px;
+  left:900px;
+  color: white;
+
+
+}
+
+.allcages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+}
+
+.ratings {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+
+}
+
+#firsthome {
+  position: relative;
+  top:40px
+}
+
+#thirdhome {
+  position: relative;
+  top:40px
+
+
+}
+
+#firsthome:hover{
+
+  opacity: 0.5;
+}
+
+#secondhome:hover{
+
+  opacity: 0.5;
+}
+#thirdhome:hover{
+
+  opacity: 0.5;
+}
+
+
+.return {
+margin-left: 15px;
+position: absolute;
+right:15px;
+bottom:0;
+
+}
+
+
+.return:hover {
+ opacity: 0.5;
+
+}
+
+a {
+  text-decoration: none;
+
+
+}
